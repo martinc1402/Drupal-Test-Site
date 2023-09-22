@@ -86,6 +86,7 @@ class ComposerStaticInitf026a11538593ea6b399cd968ac581c3
         ),
         'D' => 
         array (
+            'Drupal\\bootstrap\\' => 17,
             'Drupal\\Core\\' => 12,
             'Drupal\\Composer\\Plugin\\Scaffold\\' => 32,
             'Drupal\\Composer\\Plugin\\ProjectMessage\\' => 38,
@@ -228,8 +229,8 @@ class ComposerStaticInitf026a11538593ea6b399cd968ac581c3
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -270,6 +271,10 @@ class ComposerStaticInitf026a11538593ea6b399cd968ac581c3
         'Egulias\\EmailValidator\\' => 
         array (
             0 => __DIR__ . '/..' . '/egulias/email-validator/src',
+        ),
+        'Drupal\\bootstrap\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/web/themes/contrib/bootstrap/src',
         ),
         'Drupal\\Core\\' => 
         array (
